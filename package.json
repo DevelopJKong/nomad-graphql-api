@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DevelopJKong/nomad-graphql-api/issues"
   },
-  "homepage": "https://github.com/DevelopJKong/nomad-graphql-api#readme"
+  "homepage": "https://github.com/DevelopJKong/nomad-graphql-api#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
 }
