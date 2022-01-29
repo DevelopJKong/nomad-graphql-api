@@ -1,7 +1,9 @@
+import { people } from "./db";
+
 const resolvers = {
-    Query: {
-        name: () => "jeong"
-    }
-}
+  Query: {
+    people: () => people
+  }
+};
 
 export default resolvers;
