@@ -4,7 +4,7 @@ type Movie {
   score: Int!
 }
 
-type Query {
+type Query {  
   movies: [Movie]!
   movie(id: Int!): Movie
 }
